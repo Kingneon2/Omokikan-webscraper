@@ -6,8 +6,8 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get("8872266502:AAH_wYw2A_ItpDjCXuboVHAG6fx9eXUSUjA")
-TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+BOT_TOKEN = os.environ.get("8872266502:AAEBGkFSo5aOzjvU3WY0ol_cCpDce5hq-vA")
+TELEGRAM_API = f"https://api.telegram.org/bot{8872266502:AAEBGkFSo5aOzjvU3WY0ol_cCpDce5hq-vA}"
 
 URL_REGEX = re.compile(r"https?://[^\s]+")
 
